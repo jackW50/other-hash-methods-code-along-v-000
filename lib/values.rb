@@ -13,6 +13,7 @@ def get_the_values(groceries)
   groceries.values 
     binding.pry
     groceries.values.flatten
+    groceries.values.reduce(:concat)
   #end 
   #binding.pry
 end
