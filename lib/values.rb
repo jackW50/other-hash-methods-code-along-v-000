@@ -10,10 +10,8 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  groceries.values 
-    binding.pry
-    groceries.values.flatten
-    groceries.values.reduce(:concat)
-  #end 
-  #binding.pry
+  #groceries.values 
+   # binding.pry
+  groceries.values.flatten
+
 end
