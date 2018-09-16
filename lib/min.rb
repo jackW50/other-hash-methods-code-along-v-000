@@ -10,6 +10,8 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  groceries.collect {|group, array| array}.flatten.min
+    
   binding.pry
   groceries.values.flatten.min
   
